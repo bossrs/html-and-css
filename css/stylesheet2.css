@@ -1,0 +1,86 @@
+body{
+    background-color: #D14836;
+}
+    .head{
+        color: white;
+    padding: 10px;
+}
+.aside{
+    float: right;
+    
+    color:black;
+   
+    padding: 5px;
+    text-align: center;
+ 
+}
+.aside a{
+    background-color: #D14836;
+    width: 200px;
+    padding: 5px;
+    color: white;
+    margin-left: 20px;
+    display: block;
+    margin-bottom: 10px;
+     margin-right: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+    
+
+}
+.aside a{
+    width: :200px;
+}
+.aside p:hover{
+    background-color: white;
+    color:#D14836;
+  border-width: 1px;
+  border-color:#D14836;
+  border-style: solid;
+  padding: 4px;
+}
+.aside a:hover{
+    background-color: white;
+    color:#D14836;
+  border-width: 1px;
+  border-color:#D14836;
+  border-style: solid;
+  padding: 4px;
+}
+.main h3,h4{
+    color:#D14836;
+
+    
+
+}
+.main{
+    background-color:white ;
+    padding: 5px;
+  
+
+}
+.col{
+    background-color:#F6DAD7;
+    color:#D14836;
+
+}
+.footer{
+    color:white;
+}
+@media screen and (max-width:500px){
+    .aside{
+        width:100%;
+        float: none;
+        margin: auto;
+    }
+    .main{
+        margin: auto;
+        overflow: auto;
+    }
+    .aside >a{
+        width: auto;
+        margin-left:10px;
+       
+    }
+}
